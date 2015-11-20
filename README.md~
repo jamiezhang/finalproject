@@ -21,7 +21,7 @@ files to be used in creating one HTML table and D3 heatmaps.
 
 ### Examples 
 
-<img  src="https://github.com/jamiezhang/finalproject/blob/master/r_heatmap.PNG" alt="A typical heatmap in R" style="width:
+<img  src="r_heatmap.png" alt="A typical heatmap in R" style="width:
 400px;"/>
 
 - gene symbols are hard to read when the set size gets large.
