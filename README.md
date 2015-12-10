@@ -24,6 +24,7 @@ The raw data used for this example can be found [here](http://www.ncbi.nlm.nih.g
 
 [GSEA Example](http://software.broadinstitute.org/gsea/resources/gsea_pnas_results/diabetes_C2.Gsea/index.html)
 
+- nice summary table 
 - pre-generated and not interactive
 
 [D3 heatmap with hierarchical clustering](http://blog.nextgenetics.net/demo/entry0044/)
@@ -42,7 +43,7 @@ The raw data used for this example can be found [here](http://www.ncbi.nlm.nih.g
 
 - Each matrix entry maps to each small rectangle. Value of each entry determines the color of each rectangle, indices of each entry determines the position of each rectangle.
 
-- Color scale: `3.scale.threshold()` maps pre-specified intervals to a color gradient. The intervals are calculated as the lower and upper quantiles of probabilities (1e-5, 1e-3, 5e-2) in distribution N(0,1).
+- Color scale: `d3.scale.threshold()` maps pre-specified intervals to a color gradient. The intervals are calculated as the lower and upper quantiles of probabilities (0.00001, 0.001, 0.05) in distribution N(0,1).
 
 - X scale and Y scale: `d3.scale.ordinal` maps each pair of matrix indices (discrete) to width and height of the SVG (continous).
 
