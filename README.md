@@ -8,8 +8,7 @@ seminar in fall 2015. This project provides summaries and
 visualizations of results in pathway analysis using expression data.
 
 
-To view this project, please download all the files and set up a local
-server, then open *index.html*.
+[View this project.](https://rawgit.com/jamiezhang/finalproject/master/index.html)
 
 ## The data
 
