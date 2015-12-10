@@ -17,7 +17,7 @@ The raw data used for this example can be found [here](http://www.ncbi.nlm.nih.g
 ## Background
 
 <img  src="https://github.com/jamiezhang/finalproject/blob/master/r_heatmap.PNG" alt="A typical heatmap in R" style="width:
-400px;"/>
+300px;"/>
 
 - gene symbols are hard to read when the set size gets large.
 - may want to check the actuall expression vlaue.
